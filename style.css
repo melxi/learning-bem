@@ -1,0 +1,205 @@
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: lightgray;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+  vertical-align: middle;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 810px;
+  width: 100%;
+}
+
+.product {
+  background-color: #f2e5de;
+  display: flex;
+}
+
+.product__photo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 380px;
+  padding: 20px;
+}
+
+.product__photo {
+  max-width: 100%;
+  width: 100%;
+}
+
+.product__main {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.product__name {
+  display: block;
+  margin: 20px;
+  color: #2d91a1;
+}
+
+.product__info {
+  margin-bottom: 30px;
+}
+
+.product__info-line {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.product__info-label {
+  flex: 0 0 150px;
+  color: #211f1f;
+}
+
+.product__price {
+  margin-bottom: 30px;
+}
+
+.product__actions {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.product__actions *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.product__description {
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: flex;
+  color: #afafaf;
+  margin-bottom: 30px;
+}
+
+.rating__stars {
+  display: flex;
+  margin-right: 20px;
+  color: #ffe404;
+}
+
+.rating__count {
+  margin-right: 10px;
+}
+
+.rating__add {
+  color: #afafaf;
+}
+
+.price__current {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #4493a0;
+}
+
+.price__old {
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+.price__discount {
+  color: #55a32a;
+}
+
+.socials {
+  display: flex;
+}
+
+.social__item {
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.social__link.social__link--facebook {
+  background-color: #305891;
+}
+
+.social__link.social__link--twitter {
+  background-color: #2ca8d2;
+}
+
+.social__link i {
+  color: #fff;
+}
+
+.btn {
+  flex-shrink: 0;
+  height: 40px;
+  padding: 10px 30px;
+  line-height: 20px;
+  border: 0;
+  color: #fff;
+}
+
+.btn--primary {
+  background-color: #55a32a;
+}
+
+.btn--attention {
+  background-color: #2d91a1;
+}
+
+.btn--size-wide {
+  flex: 1;
+}
+
+.btn--text-uppercase {
+  text-transform: uppercase;
+}
